@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+/* Custom Fonts */
+@font-face {
+  font-family: "Noto Sans";
+  src: url("/fonts/NotoSans-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-stretch: 62.5% 100%;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("/fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-stretch: 62.5% 100%;
+  font-style: italic;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}

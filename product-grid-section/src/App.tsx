@@ -1,17 +1,15 @@
-import { useState } from 'react'
+import "./App.css";
+import { Products } from "./components/features";
+import { ProductsProvider } from './context';
 
-import './App.css'
-import Credits from './components/Credits'
-import GridSection from './components/GridSection'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <GridSection />
-      <Credits />
-    </>
+    <div className="min-h-screen bg-gray-100 items-center justify-center flex">
+      <ProductsProvider>
+        <Products></Products>
+      </ProductsProvider>
+    </div>
   );
 }
 
-export default App
+export default App;

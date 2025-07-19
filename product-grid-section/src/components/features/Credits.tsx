@@ -1,6 +1,3 @@
-
-
-
 const Credits = () => {
     return (
       <div className="fixed bottom-6 left-6 text-[11px] text-center">
